@@ -55,12 +55,19 @@ WHERE payee = 'Mega Foods';
 SELECT email, signup
 FROM users
 WHERE user = 'DeAndre Data';
+```
+- Outputs the email and signup data for the user DeAndre Data
 
+```SQL
 SELECT userid
 FROM users
 WHERE email = 'aleesia.algorithm@uw.edu'
+```
+- Outputs the user id for any row where the email is set to aleesia.algorithm@uw.edu.
 
+```SQL
 SELECT *
 FROM users
 WHERE userid = 4;
 ```
+- Outputs all the data for the rows where the userid is set to 4.
